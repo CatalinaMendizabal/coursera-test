@@ -34,13 +34,13 @@ p {
   background: grey;
   position: relative; 
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 10px;  
 
 }
 
-#first #second {
+#first #pink {
+  background: #D59898;
   font-weight: bold;
-  font-size: 18px;
   border: 1px solid black;
   width: 150px;
   height: 30px;
@@ -48,7 +48,27 @@ p {
   top: 0;
   right: 0;
 }
-
+#first #redish {
+  color: white;
+  background: #C14643;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#first #yellow {
+  background: #E5D198;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .row {
   width: 100%;
 }
